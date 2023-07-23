@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>Multiple Timers App</header>
+    <main class="timer-section">
+        <div class="set-alarm">
+            <p>Set Time :</p>
+            <div class="timer">
+                <input type="number" id="hours" placeholder="HH" name="hours">:
+                <input type="number" id="minutes" placeholder="MM" name="minutes">:
+                <input type="number" id="seconds" placeholder="SS" name="seconds">
+            </div>
+            <button class="set-timer">Set</button>
+        </div>
+        <p class="heading">Current Timers</p>
+        <div class="alarm-list">
+            
+            <p class="text-display">You have no timers currently!</p>
+
+            <!-- <div class="count-started">
+                <span class="end-time" id="${id+2}">
+                    <p id="left-time-label">Time Left :</p>
+                    <div class="time-remaining" id="times-up">
+                        <input type="number" value="${hrs}" id="hours-left" placeholder="00" name="hours">:
+                        <input type="number" value="${mins}" id="minutes-left" placeholder="00" name="minutes">:
+                        <input type="number" value="${secs}" id="seconds-left" placeholder="00" name="seconds">
+                    </div>
+                </span>
+                <button class="dlt-timer" id=${id+1}>Delete</button>
+            </div>  -->
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
